@@ -1,3 +1,3 @@
-<section class="bg-lime-300 h-[100vh]">
+<section class="bg-blue-500 h-[100vh]">
 
 </section>
