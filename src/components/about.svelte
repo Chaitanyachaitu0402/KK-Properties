@@ -1,4 +1,5 @@
-<h1 id="about" class="text-center">ABOUT</h1>
+<section class="h-[90vh]">
+    <h1 id="about" class="text-center">ABOUT</h1>
 <div id=container>
 <div id=kkplogo>
     <img src="logo.png" alt="">
@@ -16,6 +17,7 @@ the real estate industry.wheather you're a first-time homebuyer or
 an experiencd investor , we are help to help you navigate the n market and acheive your real state goals.</p>
 </div>
 </div>
+</section>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,900&display=swap'); 
 #about{

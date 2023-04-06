@@ -10,49 +10,51 @@
     
     <!--Navbar-->
 
-    <nav id="navbar" class="mt-[2%]">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="flex items-center justify-between h-16">
-            <div id="logo-img" class="flex items-center">
-              <a href="#" class="text-white text-xl font-bold">
-                <img class="w-[8vw]" src="logo.png" alt="">
-              </a>
-              <div id="logo-name" class="text-white">
-                <a href=""><p class="font-bold text-lg">PROPERTIES & DEVELOPERS</p></a>
-                <a href=""><p class="text-base">A HOME CHANGES EVERYTHING</p></a>
+    <section id="head">
+        <nav id="navbar" class="">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div class="flex items-center justify-between h-16">
+                <div id="logo-img" class="flex items-center">
+                  <a href="#" class="text-white text-xl font-bold">
+                    <img class="w-[8vw]" src="logo.png" alt="">
+                  </a>
+                  <div id="logo-name" class="text-white">
+                    <a href=""><p class="font-bold text-lg">PROPERTIES & DEVELOPERS</p></a>
+                    <a href=""><p class="text-base">A HOME CHANGES EVERYTHING</p></a>
+                </div>
+                </div>
+                <div class="hidden md:block">
+                  <div id="nav-icons" class="ml-10 flex items-baseline">
+                    <a href="#" class="px-5 py-2 rounded-md text-lg font-medium text-white hover:bg-gray-700">HOME</a>
+                    <a href="#" class="px-5 py-2 rounded-md text-lg font-medium text-white hover:bg-gray-700">ABOUT</a>
+                    <a href="#" class="px-5 py-2 rounded-md text-lg font-medium text-white hover:bg-gray-700">LOCATIONS</a>
+                    <a href="#" class="px-5 py-2 rounded-md text-lg font-medium text-white hover:bg-gray-700">CONTACT US</a>
+                    <a href="#" class="px-5 py-2 rounded-md text-lg font-medium text-white bg-[#d89e37]">BOOK NOW</a>
+                </div>
+                </div>
+                <div class="-mr-2 flex md:hidden">
+                  <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white transition duration-150 ease-in-out" aria-label="Main menu" aria-expanded="false">
+                    <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
             </div>
+          
+            <div class="hidden md:hidden">
+              <div class="px-2 pt-2 pb-3 sm:px-3">
+                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-700">Home</a>
+                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-700">About</a>
+                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-700">Contact</a>
+              </div>
             </div>
-            <div class="hidden md:block">
-              <div id="nav-icons" class="ml-10 flex items-baseline">
-                <a href="#" class="px-5 py-2 rounded-md text-lg font-medium text-white hover:bg-gray-700">HOME</a>
-                <a href="#" class="px-5 py-2 rounded-md text-lg font-medium text-white hover:bg-gray-700">ABOUT</a>
-                <a href="#" class="px-5 py-2 rounded-md text-lg font-medium text-white hover:bg-gray-700">LOCATIONS</a>
-                <a href="#" class="px-5 py-2 rounded-md text-lg font-medium text-white hover:bg-gray-700">CONTACT US</a>
-                <a href="#" class="px-5 py-2 rounded-md text-lg font-medium text-white bg-[#d89e37]">BOOK NOW</a>
-            </div>
-            </div>
-            <div class="-mr-2 flex md:hidden">
-              <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white transition duration-150 ease-in-out" aria-label="Main menu" aria-expanded="false">
-                <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                </svg>
-              </button>
-            </div>
-          </div>
-        </div>
-      
-        <div class="hidden md:hidden">
-          <div class="px-2 pt-2 pb-3 sm:px-3">
-            <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-700">Home</a>
-            <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-700">About</a>
-            <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-700">Contact</a>
-          </div>
-        </div>
-      </nav>
+          </nav>
+    </section>
       
       <!--Head Text-->
 
-        
+
       
       
 </body>
@@ -62,10 +64,9 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,900&display=swap'); 
     @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-    html,body{
+    #head{
         background: url(homebg.png);
         background-size: cover;
-        background-repeat: no-repeat;
         height: 100vh;
     }
 
