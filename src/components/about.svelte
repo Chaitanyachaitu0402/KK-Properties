@@ -42,6 +42,7 @@ an experiencd investor , we are help to help you navigate the n market and achei
     line-height: 30px;
     text-align: justify;
     text-justify: inter-word;
+    font-weight: bold;
     }
     #kkplogo{
         height: 35vh;
@@ -57,8 +58,7 @@ an experiencd investor , we are help to help you navigate the n market and achei
         padding: 0px 40px;
         }
     #container1 p{
-       width:230%;
-       margin-top:90%;
+       width:200%;
        padding: 0px 23px;
     }
     #kkplogo img{
@@ -68,6 +68,11 @@ an experiencd investor , we are help to help you navigate the n market and achei
    @media screen and (max-width:2561px){
     #container1{
       margin-top:110px;
+      font-size: 20px;
+      line-height: 35px;
+    }
+    #kkplogo img{
+        margin-top:90px;
     }
 }
    @media screen and (max-width:1441px){
@@ -87,22 +92,36 @@ an experiencd investor , we are help to help you navigate the n market and achei
    }
    @media screen and (max-width:1027px){
     #container1 p{
-    line-height:27px;
+    line-height:25px;
+    font-size: 12px;
+    font-weight: bold;
+    }
+   }
+   @media screen and (max-width:849px){
+    #container1 p{
+        font-size: 10px;
+    }
+   }
+   @media screen and (max-width:768px){
+    #container1 p{
+        margin-top: 80%;
+        
+        font-size: 15px;
     }
    }
    @media screen and (max-width:513px){
 #container1 p{
-       margin-top:130px;
+       margin-top:50px;
 }
    }
    @media screen and (max-width:414px){
     #container1 p{
-       margin-top:80px;
+       margin-top:10px;
     }
    }
    @media screen and (max-width:334px){
     #container1 p{
-        margin-top:30px;
+        margin-top:0px;
         margin-left:0px;
     }
    }

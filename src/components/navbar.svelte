@@ -13,7 +13,7 @@
     <section id="head">
         <nav id="navbar" class="">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-              <div class="flex items-center justify-between h-16">
+              <div id="nav" class="flex items-center justify-between h-16">
                 <div id="logo-img" class="flex items-center">
                   <a href="#" class="text-white text-xl font-bold">
                     <img class="w-[8vw]" src="logo.png" alt="">
@@ -50,11 +50,22 @@
               </div>
             </div>
           </nav>
+          
+          
+          <!--Head Text-->
+
+          <div id="head-text" class="text-9xl mt-[14%] ml-[10%]">
+            <div>
+                <h1 class="text-white"><span class="text-[#d89e37]">HOME</span> IS</h1>
+                <h1 class="text-white">WHERE OUR</h1>
+                <h1 class="text-white">STORY <span class="text-[#d89e37]">BEGINS</span>•••</h1>
+            </div>
+        </div>
     </section>
       
-      <!--Head Text-->
+      
 
-
+        
       
       
 </body>
@@ -68,6 +79,7 @@
         background: url(homebg.png);
         background-size: cover;
         height: 100vh;
+        background-position: 45%;
     }
 
     #navbar{
@@ -75,6 +87,17 @@
     }
     #head-text{
         font-family: 'Anton', sans-serif;
+    }
+    @media screen and (max-width:3000px) and (min-width:1800px){
+        #nav{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        #head-text{
+            font-size: 200px;
+            margin-top: 20%;
+        }
     }
     @media screen and (max-width:1070px){
         #nav-icons a{
@@ -98,6 +121,10 @@
         #nav-icons a{
             font-size: 10.3px;
         }
+        #head-text{
+            font-size: 90px;
+            margin-top: 25%;
+        }
     }
     @media screen and (max-width:850px){
         #logo-img a img{
@@ -107,6 +134,12 @@
     @media screen and (max-width:750px){
         #logo-img a img{
             width: 12vw;
+        }
+    }
+    @media screen and (max-width:768px){
+        #head-text{
+            font-size: 90px;
+            margin-top: 25%;
         }
     }
     @media screen and (max-width:675px){
@@ -119,6 +152,24 @@
             width: 25vw;
         }
     }
+    @media screen and (max-width:470px){
+        #head-text{
+            font-size: 75px;
+            margin-top: 40%;
+        }
+    }
+    @media screen and (max-width:425px){
+        #head-text{
+            font-size: 75px;
+            margin-top: 40%;
+        }
+    }
+    @media screen and (max-width:370px){
+        #head-text{
+            font-size: 80px;
+            margin-top: 25%;
+        }
+    }
     @media screen and (max-width:350px){
         #logo-name a p{
             font-size: 10px;
@@ -127,6 +178,10 @@
     @media screen and (max-width:330px){
         #logo-name a p{
             font-size: 10px;
+        }
+        #head-text{
+            font-size: 60px;
+            margin-top: 75%;
         }
     }
 </style>
