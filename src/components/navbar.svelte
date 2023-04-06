@@ -76,7 +76,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,900&display=swap'); 
     @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
     #head{
-        background: url(homebg.png);
+        background: url(./homebg.png);
         background-size: cover;
         height: 100vh;
         background-position: 45%;
