@@ -80,7 +80,6 @@
         background-size: cover;
         height: 100vh;
         background-position: 45%;
-        background-color: black;
     }
 
     #navbar{
