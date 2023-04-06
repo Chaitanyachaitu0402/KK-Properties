@@ -1,12 +1,8 @@
 <script>
-    import Note1 from "../components/note1.svelte";
-    import Navbar from "../components/navbar.svelte";
+    import Aboutc from "../components/aboutc.svelte";
 </script>
-
-
 <section class="">
     <div class="">
-        <Navbar/>
-        <Note1/>
+        <Aboutc/>
     </div>
 </section>
