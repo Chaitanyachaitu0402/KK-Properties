@@ -78,9 +78,17 @@
             margin-top: 20%;
         }
     }
+    @media screen and (max-width:1250px){
+        #head-text{
+            font-size: 100px;
+        }
+    }
     @media screen and (max-width:1070px){
         #nav-icons a{
             font-size: 15px;
+        }
+        #head-text{
+            font-size: 100px;
         }
     }
     @media screen and (max-width:967px){
@@ -145,7 +153,7 @@
     }
     @media screen and (max-width:370px){
         #head-text{
-            font-size: 80px;
+            font-size: 70px;
             margin-top: 45%;
         }
     }
