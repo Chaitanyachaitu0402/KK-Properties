@@ -2,7 +2,7 @@
     <h1 id="about" class="text-center">ABOUT</h1>
 <div id=container>
 <div id=kkplogo>
-    <img src="logo.png" alt="">
+    <img src="logo1.png" alt="">
 </div>
 <div id=container1>
 <p>We are a full-service real state company commited to helping 
