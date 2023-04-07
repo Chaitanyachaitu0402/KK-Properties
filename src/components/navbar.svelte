@@ -160,7 +160,7 @@
         }
         #head-text{
             font-size: 60px;
-            margin-top: 70%;
+            margin-top: 80%;
         }
     }
 </style>
