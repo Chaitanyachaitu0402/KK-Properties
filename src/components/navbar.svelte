@@ -146,7 +146,7 @@
     @media screen and (max-width:370px){
         #head-text{
             font-size: 80px;
-            margin-top: 35%;
+            margin-top: 45%;
         }
     }
     @media screen and (max-width:350px){
