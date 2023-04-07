@@ -50,7 +50,7 @@
             <div>
                 <h1 class="text-white"><span class="text-[#d89e37]">HOME</span> IS</h1>
                 <h1 class="text-white">WHERE OUR</h1>
-                <h1 class="text-white">STORY <span class="text-[#d89e37]">BEGINS</span>•••</h1>
+                <h1 class="text-white">STORY <span class="text-[#d89e37]">BEGINS</span>••••</h1>
             </div>
         </div>
     </section>
