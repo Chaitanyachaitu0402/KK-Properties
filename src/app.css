@@ -2,9 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-#head{
-    background: url(../homebg.png);
-    background-size: cover;
-    height: 100vh;
-    background-position: 45%;
-}

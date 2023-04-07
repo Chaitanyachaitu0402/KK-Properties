@@ -1,16 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KK Properties & Developers</title>
-</head>
-<body>
+    
     
     <!--Navbar-->
 
-    <section id="head">
+    <section id="head" style="background-image: url(/homebg.png); background-size: cover; height: 100vh; background-position: 50%;">
         <nav id="navbar" class="">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div id="nav" class="flex items-center justify-between h-16">
@@ -63,13 +55,6 @@
         </div>
     </section>
       
-      
-
-        
-      
-      
-</body>
-</html>
 
 
 <style>
@@ -175,7 +160,7 @@
         }
         #head-text{
             font-size: 60px;
-            margin-top: 75%;
+            margin-top: 70%;
         }
     }
 </style>
