@@ -22,7 +22,7 @@ an experiencd investor , we are help to help you navigate the n market and achei
 </section>
 <style>
     
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,900&display=swap'); 
 #about{
    font-size:70px;
    color:#050a2f;
@@ -77,7 +77,6 @@ an experiencd investor , we are help to help you navigate the n market and achei
       gap:1%;
     }
 }
-<<<<<<< HEAD
    @media screen and (max-width:1441px){
     #kkplogo img{
         margin-top:90px;
@@ -97,14 +96,10 @@ an experiencd investor , we are help to help you navigate the n market and achei
       }
    }
    @media screen and (max-width:1027px){
-=======
-@media screen and (max-width:769px){
->>>>>>> 72abca1a185fa6510836980c42a95175506b494d
     #container1 p{
         font-size:10px;
         line-height:20px;
     }
-<<<<<<< HEAD
     section{
         height: 90vh;
     }
@@ -127,11 +122,6 @@ an experiencd investor , we are help to help you navigate the n market and achei
    @media screen and (max-width:513px){
 #container1 p{
        margin-top:50px;
-=======
-    #container{
-        gap:26px;
-    }
->>>>>>> 72abca1a185fa6510836980c42a95175506b494d
 }
 @media screen and (max-width:796px){
     #kkplogo img{
@@ -179,4 +169,5 @@ an experiencd investor , we are help to help you navigate the n market and achei
     }
 
 }
+   }
 </style>
