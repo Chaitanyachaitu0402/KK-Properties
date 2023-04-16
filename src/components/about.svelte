@@ -19,6 +19,7 @@ an experiencd investor , we are help to help you navigate the n market and achei
 </div>
 </section>
 <style>
+    
     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,900&display=swap'); 
 #about{
    font-size:50px;
@@ -28,101 +29,105 @@ an experiencd investor , we are help to help you navigate the n market and achei
    margin-top:38px;
    height: 0vh;
    }
-   #container{
+ #kkplogo img{
+    height:50vh;
+   }
+   #container1 p{
     display: flex;
-    justify-content:center;
-    gap:10%;
-    margin-top:27px;
-}
-#container1{
-    font-family:'poppins',sans-serif;
-    font-size:15px;
-    margin-top:34px;
-    width: 40vw;
-    line-height: 30px;
     text-align: justify;
     text-justify: inter-word;
-    font-weight: bold;
+    font-family:'poppins'sans-serif; 
+    font-size:16px;
+    font-weight: bold; 
+    width:35vw; 
+    margin-top:30px;
+    line-height:26px;
+    word-spacing:2px;
+   }
+   #container{
+       display: flex;
+       justify-content: center;
+       margin-top:8%;
+       gap:4%;
+   }
+  @media screen and (max-width:1061px){
+    #kkplogo img{
+        height:45vh;
     }
-    #kkplogo{
-        height: 35vh;
-    }
-#kkplogo img{
-    width: 30vw;
-}
-   @media screen and (max-width:768px){
     #container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 0px 40px;
-        }
+         margin-top:130px;
+    }
+  }
+  @media screen and (max-width:931px){
+    #kkplogo img{
+         height:43vh ;
+    }
+  }
+  @media screen and (max-width:886px){
+    #kkplogo img{
+       height:40vh;
+    }
     #container1 p{
-       width:200%;
-       padding: 0px 23px;
+          font-size:13.6px;
+          font-weight: bold;
     }
-    #kkplogo img{
-       width: 100%;
-    }
-   }
-   @media screen and (max-width:2561px){
-    #container1{
-      margin-top:110px;
-      font-size: 20px;
-      line-height: 35px;
-    }
-    #kkplogo img{
-        margin-top:90px;
+    #container{
+      gap:1%;
     }
 }
-   @media screen and (max-width:1441px){
-    #kkplogo img{
-        margin-top:90px;
-    }
-   }
-   @media screen and (max-width:1115px){
-        #kkplogo img{
-         margin-top:110px;
-        }
-   }
-   @media screen and (max-width:919px){
-      #container1 p{
-         line-height:9px;
-      }
-   }
-   @media screen and (max-width:1027px){
+@media screen and (max-width:769px){
     #container1 p{
-    line-height:25px;
-    font-size: 12px;
-    font-weight: bold;
+        font-size:10px;
+        line-height:20px;
     }
-   }
-   @media screen and (max-width:849px){
-    #container1 p{
-        font-size: 10px;
+    #container{
+        gap:26px;
     }
-   }
-   @media screen and (max-width:768px){
-    #container1 p{
-        margin-top: 80%;
-        
-        font-size: 15px;
-    }
-   }
-   @media screen and (max-width:513px){
-#container1 p{
-       margin-top:50px;
 }
-   }
-   @media screen and (max-width:414px){
-    #container1 p{
-       margin-top:10px;
+@media screen and (max-width:796px){
+    #kkplogo img{
+      height:35vh;
+      margin-top:16px;
     }
-   }
-   @media screen and (max-width:334px){
-    #container1 p{
-        margin-top:0px;
-        margin-left:0px;
+}
+@media screen and (max-width:539px){
+    #kkplogo img{
+      height:30vh;
     }
-   }
+}
+@media screen and (max-width:465px){
+    #container{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-top:23%;
+    }
+    #container1 p{
+        font-size:12px;
+        width:75%;
+        margin-left:69px;
+    }
+}
+@media screen and (max-width:389px){
+    #container1 p{
+       margin-left:50px;
+    }
+}
+@media screen and (max-width:312px){
+    #container1 p{
+       margin-left:35px;
+    }
+}
+@media screen and (min-width:1023px) and (max-width:1025px){
+    #container1 p{
+          font-size:12px;
+          margin-top:20px;
+    }
+}
+@media screen and (max-width:426px){
+    #container1 p{
+       margin-left:54px;
+    }
+
+}
 </style>
