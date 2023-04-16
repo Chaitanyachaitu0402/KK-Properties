@@ -1,4 +1,4 @@
-<section class="h-[90vh]">
+<section class="h-[100vh]">
     <h1 id="about" class="text-center">ABOUT</h1>
 <div id=container>
 <div id=kkplogo>
@@ -18,10 +18,12 @@ an experiencd investor , we are help to help you navigate the n market and achei
 </div>
 </div>
 </section>
+<section id="head" style="background-image: url(/7.jpg); background-size: cover; height: 110vh; background-position: 50%; background-attachment: fixed;">
+</section>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,900&display=swap'); 
 #about{
-   font-size:50px;
+   font-size:70px;
    color:#050a2f;
    font-weight:bold;
    font-family:'poppins',sans-serif;
@@ -79,6 +81,9 @@ an experiencd investor , we are help to help you navigate the n market and achei
     #kkplogo img{
         margin-top:90px;
     }
+    section{
+        height: 120vh;
+    }
    }
    @media screen and (max-width:1115px){
         #kkplogo img{
@@ -96,6 +101,9 @@ an experiencd investor , we are help to help you navigate the n market and achei
     font-size: 12px;
     font-weight: bold;
     }
+    section{
+        height: 90vh;
+    }
    }
    @media screen and (max-width:849px){
     #container1 p{
@@ -107,6 +115,9 @@ an experiencd investor , we are help to help you navigate the n market and achei
         margin-top: 80%;
         
         font-size: 15px;
+    }
+    section{
+        height: 170vh;
     }
    }
    @media screen and (max-width:513px){
