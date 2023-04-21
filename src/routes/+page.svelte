@@ -1,14 +1,23 @@
 <script>
     import Navbar from "../components/navbar.svelte";
     import About from "../components/about.svelte";
+    import Footer from "../components/footer.svelte";
+    import Locations from "../components/locations.svelte";
+    import Contact from "../components/contact.svelte";
     import Chairman from "../components/chairman.svelte";
+<<<<<<< HEAD
     import Features from "../components/features.svelte";
     </script>
+=======
+</script>
+>>>>>>> 9b62bbd9b1b1429503e2972cb83210bb6d932372
 <section class="">
     <div class="">
         <Navbar/>
         <About/>
         <Chairman/>
-        <Features/>
+        <Locations/>
+        <Contact/>
+        <Footer/>
     </div>
 </section>

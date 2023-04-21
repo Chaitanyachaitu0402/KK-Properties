@@ -2,3 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar{
+    width:8px;
+    background-color: white;
+  }
+  ::-webkit-scrollbar-thumb{
+   border-radius: 10px;
+   background-color: #050a2f;
+  }
+  html,body{
+    scroll-behavior: smooth;
+  }
+  
