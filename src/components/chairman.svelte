@@ -16,7 +16,7 @@
       </p>
     </div>
     <div id=kkplogo1>
-    <img src="sirimage.png" alt="">
+    <img src="image1.png" alt="">
     </div>
   </div>
 </section>
@@ -28,7 +28,6 @@
    font-weight:bold;
    font-family:'poppins',sans-serif;
    margin-top:38px;
-   height: 0vh;
     }
     #bg{
       background-image: url("bgimage.jpg");
@@ -38,7 +37,7 @@
   #container{
     display: flex;
        justify-content: center;
-       margin-top:8%;
+       margin-top:3%;
        gap:4%;
   } 
   #container1 p{
@@ -54,202 +53,201 @@
     word-spacing:2px;
   }
   #kkplogo1 img{
-       height:96vh;
-  }
-  @media screen and (max-width:1441px){
-    #chairman{
-        margin-top:0%;
-    }
-    #kkplogo1 img{
-       height:80vh;
-    }
-  }
-  @media screen and (max-width:1259px){
-    #kkplogo1 img{
-         height:70vh;
-    }
-  }
-  @media screen and (max-width:1095px){
-    #bg{
-      background-size:100%;
-    }
-    #container{
-      gap:13%;
-    }
-    #kkplogo1 img{
-       height:90%;
-    }
-  }
-  @media screen and (max-width:1079px){
+       height:84vh;
+        margin-left:24%;
+  } 
+  @media screen and (max-width:2561px){
     
-    #chairman{
-      margin-top:8%;
-    }
-    #kkplogo1 img{
-       height:80vh;
-    }
-    #container{
-       gap:10%;
-    }
     #container1 p{
-     font-size:13.5px;
+           font-size:29px;
+           line-height:53px;
+           margin-top:69px;
+    }
+   }
+   @media screen and (max-width:1954px){
+    #container1 p{
+       width:45vw;
     }
   }
-  @media screen and (max-width:1099px){
-    #container{
-      gap:8%;
+   @media screen and (max-width:1441px){
+    #container1 p{
+       font-size:17px;
+       line-height:32px;
+       width:39vw;
+       font-weight: bold;
     }
-    }
-    @media screen and (max-width:1083px){
-      #kkplogo1 img{
-          height:70vh;
-      }
-    }
-    @media screen and (max-width:1057px){
-      #kkplogo1 img{
-        height:55vh;
-      }
-    }
-  @media screen and (max-width:990px){
-    #chairman{
-      margin-top:17%;
-    }
-    #kkplogo1 img{
+     }
+   @media screen and (max-width:1283px){
+    #container1 p{
+        width:42vw;
+   }
+   }
+#container1 p{
+   width:40vw;
+   font-size:15px;
+} 
+@media screen and (max-width:1024px){
+    #container1 p{
+        font-size:15px;
         width:40vw;
     }
-  }
-  @media screen and (max-width:1015px){
-    #bg{
-     background-image: none;
-    }
-    #chairman{
-       margin-top:10%;
-    }
-    #kkplogo1 img{
-       height:70vh;
-    }
-  }
-  @media screen and (max-width:994px){
-    #chairman{
-       margin-top:15%;
-    }
-  }
-  @media screen and (max-width:880px){
-     #kkplogo1 img{
-         height:87vh;
-         width:44vw;
-     }
-  }
-  @media screen and (max-width:778px){
-    #chairman{
-        margin-top:20%;
-    }
-    #container{
-        gap:0px;
-    }
-  }
-  @media screen and (max-width:657px){
+}
+@media screen and (max-width:986px){
     #container1 p{
-      font-size:10px;
-      width:40vw;
+       font-size:15px;
+       width:40vw;
     }
+  
+}
+@media screen and (max-width:934px){
+    #container p{
+       font-size:13px;
+       height:10px;
+    }
+   
+}
+@media screen and (max-width:831px){
+    #container1 p{
+       line-height:21px;
+    }
+}
+@media screen and (max-width:880px){
+   
+    #container1 p{
+           font-size:14px;
+           line-height:29px;
+    }
+}
+@media screen and (max-width:804px){
+    #container1 p{
+      line-height:20px;
+    }
+    
+}
+@media screen and (max-width:742px){
+    #container1 p{
+       font-size:13px;
+    }
+   
+}
+
+@media screen and (max-width:607px){
+    #container1 p{
+       font-size:10px;
+    }
+    
+}
+@media screen and (max-width:576px){
+
+#container1 p{
+     width:70vw;
+     font-size:13px;
+     margin-left:15%;
+     line-height:23px;
+     margin-top:29px;
+}
+}
+
+@media screen and (max-width:343px){
+    
+    #container1 p{
+         font-size:12.9px;  
+    }
+}
+@media screen and (min-width:1441px)and (max-width:2561px){
+    #container1 p{
+        font-size:30px;
+    }
+}
+@media screen and (min-width:605px) and (max-width:770px){
+#container1 p{
+     line-height:27px;
+     font-size:13px;
+}
+}
+@media screen and (min-width:576px) and (max-width:605px){
+    #container1 p{
+       line-height:25px;
+       font-size:13px;
+    }
+} 
+@media screen and (min-width:1441px) and (max-width:2561px){
+  #chairman{
+     font-size:110px;
+     margin-top:0px;
+  }
+  #bg{
+   background-size:100%;
   }
   #kkplogo1 img{
-       height:70vh;
+     height:85.5vh;
   }
+  #container1 p{
+     margin-top:140px;
+  }
+}
+@media screen and (max-width:1441px){
+  #kkplogo1 img{
+    height:71vh;
+  }
+  #chairman{
+      margin-top:0px;
+  }
+  #bg{
+   background-size:100%;
+  }
+} 
+@media screen and (max-width:1157px){
+  #bg{ 
+    background-image:none;
+  }
+ 
+}
+@media screen and (max-width:576px){
   #container{
+      display: flex;
+      flex-direction: column;
+  }
+}
+@media screen and (max-width:430px){
+  #kkplogo1 img{
+      margin-top:70%;
+  }
+}
+@media screen and (max-width:380px){
+  #kkplogo1 img{
+     margin-top:80%;
      display: flex;
-     justify-content: center;
+     margin-left:63px;
   }
-  @media screen and (max-width:600px){
-    #kkplogo1 img{
-        margin-top:8%;
-        width:50vw;
-    }
-    #container{
-         gap:0px;
-    }
+  #chairman{
+     font-size:40px;
   }
- @media screen and (max-width:769px){
-      #kkplogo1 img{
-           height:90vh;
-      }
-      #chairman{  
-         margin-top:0px;
-      }
-      #container{
-         margin-top:75px;
-      }
-    }
-    @media screen and (max-width:1025px){
-      #chairman{
-          margin-top:0px;
-      }
-      }
-    @media screen and (max-width:621px){
-      #chairman{
-        margin-top:10%;
-      }
-    }
-    @media screen and (max-width:1040px){
-      #kkplogo1 img{
-         height:60vh;
-      }
-    }
-    @media screen and (min-width:1023px) and (max-width:1025px){
-      #kkplogo1 img{
-             height:80vh;
-      }
-    }
-    @media screen and (max-width:769px){
-      #kkplogo1 img{
-         height:86vh;
-      }
-    }
-    @media screen and (max-width:517px){
-     #chairman{
-       margin-top:20%;
-     }
-    }
-    @media screen and (max-width:456px){
-      #chairman{
-         margin-top:29%;
-      }
-      #container{
-         display: flex;
-         flex-direction: column;
-      }
-      #container1 p{
-          width:80%;
-          margin-left:50px;
-          font-size: 11px;
-      }
-      #kkplogo1 img{
-         width:79vw;
-      }
-    }
-    @media screen and (max-width:420px){
-      #chairman{
-         margin-top:40%;
-      }
-    }
-    @media screen and (max-width:398px){
-      #chairman{
-          font-size:40px;
-          margin-top:50%;
-      }
-    }
-    @media screen and (max-width:355px){
-      #container1 p{
-         margin-left:30px;
-      }
-      #chairman{
-         margin-top:60%;
-      }
-    }
-    @media screen and (max-width:323px){
-      #chairman{
-        margin-top:70%;
-      }
-    }
- </style>
+}
+@media screen and (max-width:356px){
+  #kkplogo1 img{
+    margin-top:100%;
+  }
+}
+@media screen and (max-width:321px){
+  #chairman{
+      font-size:35px;
+  }
+}
+@media screen and (max-width:331px){
+  #kkplogo1 img{
+     margin-top:120%;
+     margin-left:36px;
+  }
+}
+@media screen and (max-width:310px){
+  #kkplogo1 img{
+     margin-top:140%;
+  }
+}
+@media screen and (min-width:2559px) and (max-width:2561px){
+  #kkplogo1 img{
+    height:70vh;
+  }
+}
+</style>
