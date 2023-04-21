@@ -6,10 +6,10 @@
     
         <section class="bg-[#050a2f]" id="head" style="background-image: url(/homebg.png); background-size: cover; height: 110vh; background-position: 50%; background-attachment: fixed;">
             <nav class="bg-[#050a2f] h-[13vh] p-5 md:flex md:items-center md:justify-between sticky">
-                <div id="logo" class="flex justify-between items-center">
+              <div id="logo" class="flex justify-between items-center">
                     <a href="index.html" class="text-2xl font-[Popp] cursor-pointer">
                         <img src="/logo.png" class="h-14 mt-[13%] inline" alt="">
-                    </a>
+                    </a>  
                     <div id="logo-name">
                         <a href=""><p class="text-2xl text-white font-bold">PROPERTIES & DEVELOPERS</p>
                         <p id="home" class="text-xl leading-3 text-white font-extralight">A HOME CHANGES EVERYTHING</p></a>
