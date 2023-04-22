@@ -21,7 +21,7 @@
                         <a href="#head" class="text-xl text-white duration-500">HOME</a>
                     </li>
                     <li id="a" class="mx-4 my-6 md:my-0">
-                        <a href="#about" class="text-xl text-white duration-500">ABOUT</a>
+                        <a href="#heading" class="text-xl text-white duration-500">ABOUT</a>
                     </li>
                     <li id="a" class="mx-4 my-6 md:my-0">
                         <a href="#locations" class="text-xl text-white duration-500">LOCATIONS</a>
